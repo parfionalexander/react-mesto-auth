@@ -29,7 +29,7 @@ function Login({ onLogin }) {
           </input>
 					<input 
             className="register__input" 
-            type="text" 
+            type="password" 
             placeholder="Пароль"
             value={password}
             onChange={handlePasswordChange}>
