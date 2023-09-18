@@ -253,13 +253,11 @@ function App() {
           id="popupImage" 
           card={selectedCard} 
           onClose={closeAllPopups} 
-          // isLoading={isLoading}
         />
 
         <InfoTooltip 
           isOpen={isInfoTooltipOpen} 
           onClose={closeAllPopups} 
-          // isLoading={isLoading}
           text={isSuccessRegistration ? 'Вы успешно зарегистрировались!' : 'Что-то пошло не так! Попробуйте ещё раз.'}
           image={isSuccessRegistration ? successIcon : errorIcon}
         />
